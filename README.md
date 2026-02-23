@@ -40,5 +40,5 @@ ton testnet
 
 Исходный код контракта прилагается в файлах contracts/jetton_minter.tact и contracts/jetton_wallet.tact.
 npx blueprint verify --testnet
-публичный верификатор verifier.ton.org не поддерживает тестовую сеть TON 
-
+[публичный верификатор](https://verifier.ton.org/EQC3u6PstvHwAZEGiXgyR4331DlNhoEZEbEyGLqwWMvIKUAz?testnet=true)
+verifier.ton.org не поддерживает тестовую сеть TON
