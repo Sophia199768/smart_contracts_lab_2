@@ -19,5 +19,5 @@ export async function run(provider: NetworkProvider) {
         }
     );
 
-    console.log("✅ Minted 1000 MTK to:", owner.toString());
+    console.log("Minted 1000 MTK to:", owner.toString());
 }

@@ -20,5 +20,5 @@ export async function run(provider: NetworkProvider) {
         }
     );
 
-    console.log("✅ Sent 100 MTK to:", colleagueAddress.toString());
+    console.log("Sent 100 MTK to:", colleagueAddress.toString());
 }

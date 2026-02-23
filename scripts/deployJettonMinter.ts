@@ -16,5 +16,5 @@ export async function run(provider: NetworkProvider) {
     );
 
     await provider.waitForDeploy(minter.address);
-    console.log("✅ JettonMinter deployed at:", minter.address.toString());
+    console.log("JettonMinter deployed at:", minter.address.toString());
 }
