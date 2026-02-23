@@ -1,10 +1,9 @@
 # ![blue](https://img.shields.io/badge/Лабораторная%20работа%202-blue)
 
 ## 👩‍🎓 Состав группы:
-Полишкарова Анна M3403<br>
-Дудина Вероника M3401<br>
+Полишкарова Анна M3403 0QB1xpnHxQQnl24-r3hb1-J_zP-8dKV3r3Bb8ccYW4WkNlOp<br>
+Дудина Вероника M3401 0QD1vNr3xwMoTAbv2i49rf7aApHnXKx2UMKWLNY6cjkz7RWy <br>
 Бровкина София M3402 0QDwTtV3R11WxyEGxWH4fceUR5m2LgF2QVc8q33j3cma9f_f
-
 
 ## 💻 Платформа
 ton testnet
@@ -34,9 +33,11 @@ ton testnet
 
 ### 💰 Эмиссия токенов
 1. Написали скрипт на эмиссию mintTokens.ts
-   ![Mint](photo/mint.png)
-
-Перевод коллеге сделан
+![Mint](photo/mint.png)
+2. Написали скрипт на перевод коллеге
+![Transaction](photo/transfer_script.png)
+![Transaction_sent](photo/history_transaction_send.png)
+3. ![Transaction_sent](photo/history_transaction_receive.png)
 
 Исходный код контракта прилагается в файлах contracts/jetton_minter.tact и contracts/jetton_wallet.tact.
 npx blueprint verify --testnet

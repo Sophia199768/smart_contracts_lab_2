@@ -8,7 +8,7 @@ export async function run(provider: NetworkProvider) {
     );
 
     // Адресс кошелька коллеги
-    const colleagueAddress = Address.parse("АДРЕС_КОЛЛЕГИ");
+    const colleagueAddress = Address.parse("0QB1xpnHxQQnl24-r3hb1-J_zP-8dKV3r3Bb8ccYW4WkNlOp");
 
     await minter.send(
         provider.sender(),
