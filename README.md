@@ -18,8 +18,9 @@ ton testnet
    ![Have_wallet](photo/have_money.png)
 
 ### 🛠 Подготовка среды разработки
-1. Установили Blueprint
-2. Создали .env с мнемоникой, добавила .env в .gitignore
+1. Установили Blueprint 
+2. Запустили npm create ton@latest, выбрали An empty contract (Tact)
+3. Создали .env с мнемоникой, добавила .env в .gitignore
 
 ### 🖋 Написание смарт-контракта
 1. Написали контракт jetton_minter.tact и jetton_wallet.tact
